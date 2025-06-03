@@ -1,6 +1,8 @@
 export function App() {
   return (
-    <h1 style={{ fontFamily: 'Inter' }}>hello world</h1>
+    <>
+      <h1 className="text-3xl">hello world</h1>
+    </>
   )
 }
 
