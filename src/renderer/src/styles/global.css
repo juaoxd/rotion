@@ -14,3 +14,19 @@
   --color-rotion-800: #1e1a29;
   --color-rotion-900: #17141f;
 }
+
+@utility region-drag {
+  -webkit-app-region: drag;
+}
+
+@utility region-no-drag {
+  -webkit-app-region: no-drag;
+}
+
+html {
+  overflow: hidden;
+}
+
+/* #header {
+  -webkit-app-region: drag;
+} */
